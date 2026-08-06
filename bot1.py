@@ -29,7 +29,7 @@ system_instruction = (
     "اجعل ردودك مرتبة ومباشرة."
 )
 
-model = genai.GenerativeModel("gemini-1.5-flash-latest", system_instruction=system_instruction)
+model = genai.GenerativeModel("gemini-1.5-flash-pro", system_instruction=system_instruction)
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 # ذاكرة المحادثات لكل مستخدم
